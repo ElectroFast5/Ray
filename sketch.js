@@ -113,7 +113,7 @@ text("Score: " + score, width-150, 50);
 
 // this function spawns the lasers.
 function spawnLasers() {
-if(frameCount % 30 == 0) {
+if(frameCount % 15 == 0) {
     laser = createSprite(width, random(50, height-50), 10, 10);
     laser.addImage("laser flying", laserImage);
     laser.scale = 0.5;
