@@ -92,7 +92,7 @@ text("Score: " + score, width-150, 50);
     stroke("red");
     strokeWeight(10);
     textSize(50);
-    text("GAME OVER! 😭",width/2,height/2, 200, 200);
+    text("GAME OVER! 😭",width/2,height/2, 250, 200);
     textSize(20);
     stroke("green");
     strokeWeight(10);  
